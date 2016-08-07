@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="TeamVault.Pages.SignIn"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TeamVault.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="TVBackground" Color="#00A1F1"/>
+            <SolidColorBrush x:Key="TVForeground" Color="#FFFFFF"/>
+            <!--<SolidColorBrush x:Key="TVGreen" Color="#7CBB00"/>
+            <SolidColorBrush x:Key="TVYellow" Color="#FFBB00"/>
+            <SolidColorBrush x:Key="TVOrange" Color="#F65314"/>-->
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource TVBackground}">
+        <StackPanel>
+            <TextBlock FontSize="125" Foreground="{StaticResource TVForeground}" Text="&#xE7EF;" FontFamily="Segoe MDL2 Assets"/>
+            
+            <Button>
+                <TextBlock FontSize="75" Foreground="{StaticResource TVForeground}">
+                    <Run FontFamily="Segoe MDL2 Assets" Text="&#xE8D7;"/>
+                    <Run FontFamily="Segoe UI Light" Text="Unlock"/>
+                </TextBlock>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>
